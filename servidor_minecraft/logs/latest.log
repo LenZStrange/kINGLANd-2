@@ -1,0 +1,124 @@
+[16:21:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:21:27] [ServerMain/INFO]: Loaded 1461 recipes
+[16:21:27] [ServerMain/INFO]: Loaded 1574 advancements
+[16:21:27] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[16:21:27] [Server thread/INFO]: Loading properties
+[16:21:27] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:27] [Server thread/INFO]: Generating keypair
+[16:21:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:21:28] [Server thread/INFO]: Using epoll channel type
+[16:21:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:21:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:21:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:21:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:21:28] [Server thread/INFO]: Preparing level "world"
+[16:21:28] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:21:28] [Server thread/INFO]: Preparing spawn area: 100%
+[16:21:28] [Server thread/INFO]: Time elapsed: 12 ms
+[16:21:28] [Server thread/INFO]: Done (0.312s)! For help, type "help"
+[16:22:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:22:41] [Server thread/INFO]: LenzGOTY[/127.2.170.146:46685] logged in with entity id 68 at (-336.143905847853, 71.5625, 527.7176882274524)
+[16:22:41] [Server thread/INFO]: LenzGOTY joined the game
+[16:25:50] [Server thread/INFO]: [LenzGOTY: Set own game mode to Creative Mode]
+[17:30:17] [Server thread/INFO]: LenzGOTY has made the advancement [Ice Bucket Challenge]
+[17:32:27] [Server thread/INFO]: LenzGOTY has made the advancement [We Need to Go Deeper]
+[17:32:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
+[17:32:50] [Server thread/INFO]: [LenzGOTY: Set own game mode to Spectator Mode]
+[17:33:57] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at aad.a(SourceFile:50) ~[server-1.21.10.jar:?]
+	at aad.encode(SourceFile:14) ~[server-1.21.10.jar:?]
+	at wz.a(SourceFile:26) ~[server-1.21.10.jar:?]
+	at wz.encode(SourceFile:12) ~[server-1.21.10.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk$2.write(SourceFile:524) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at wk.c(SourceFile:350) ~[server-1.21.10.jar:?]
+	at wk.b(SourceFile:342) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:324) ~[server-1.21.10.jar:?]
+	at wk.a(SourceFile:318) ~[server-1.21.10.jar:?]
+	at wk.exceptionCaught(SourceFile:169) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:447) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:455) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at axr.channelRead(SourceFile:74) ~[server-1.21.10.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[netty-handler-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:37:28] [Server thread/INFO]: [LenzGOTY: Set own game mode to Creative Mode]
+[17:44:41] [Server thread/INFO]: Villager cyx['Librarian'/10918, l='ServerLevel[world]', x=-334.16, y=66.53, z=516.30] died, message: 'Librarian was slain by LenzGOTY'
+[17:45:10] [Server thread/INFO]: Quelnan[/127.113.157.20:47989] logged in with entity id 12256 at (-8.5, 62.0, 10.5)
+[17:45:10] [Server thread/INFO]: Quelnan joined the game
+[17:45:17] [Server thread/INFO]: [Not Secure] <Quelnan> hi there :D
+[17:45:36] [Server thread/INFO]: Quelnan lost connection: Kicked by an operator
+[17:45:36] [Server thread/INFO]: Quelnan left the game
+[17:45:36] [Server thread/INFO]: [LenzGOTY: Kicked Quelnan: Kicked by an operator]
+[17:45:36] [Server thread/WARN]: handleDisconnection() called twice
+[17:45:40] [Server thread/INFO]: Quelnan[/127.113.157.20:40903] logged in with entity id 12653 at (-1.1934993314990323, 66.49390748022948, 15.448177921382007)
+[17:45:40] [Server thread/INFO]: Quelnan joined the game
+[17:45:44] [Server thread/INFO]: [Not Secure] <Quelnan> why.
+[17:46:01] [Server thread/INFO]: [LenzGOTY: Banned Quelnan: Banned by an operator.]
+[17:46:01] [Server thread/INFO]: Quelnan lost connection: You are banned from this server
+[17:46:01] [Server thread/INFO]: Quelnan left the game
+[17:56:06] [Server thread/INFO]: [LenzGOTY: Set own game mode to Survival Mode]
+[18:01:46] [Server thread/INFO]: [LenzGOTY: Set own game mode to Creative Mode]
+[18:04:27] [Server thread/WARN]: LenzGOTY moved too quickly! 0.10201631396307675,3.706524626337867,10.154764582106964
+[18:08:21] [Server thread/INFO]: LenzGOTY has made the advancement [Who is Cutting Onions?]
+[18:10:15] [Server thread/INFO]: [LenzGOTY: Set own game mode to Survival Mode]
+[18:10:18] [Server thread/INFO]: LenzGOTY lost connection: Disconnected
+[18:10:18] [Server thread/INFO]: LenzGOTY left the game
+[18:10:43] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[18:10:43] [Server thread/INFO]: stop<--[HERE]
+[18:10:48] [Server thread/INFO]: Stopping the server
+[18:10:48] [Server thread/INFO]: Stopping server
+[18:10:48] [Server thread/INFO]: Saving players
+[18:10:48] [Server thread/INFO]: Saving worlds
+[18:10:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:10:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:10:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:10:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
